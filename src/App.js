@@ -5,7 +5,8 @@ import Calculation from './components/Calculation';
 
 function App() {
   return (
-    <div className="App">
+      <div className="App">
+      <h1 className="title">Simple Calculator</h1>
       <Calculation/>
     </div>
   );

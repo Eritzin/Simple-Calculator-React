@@ -41,20 +41,32 @@ import React, {Component} from 'react';
 export default KeyPadComponent;*/
 
 export const NUMBERS=[
-    { id: 1, name: "1",　operator:"1" },
-    { id: 2, name: "2",　operator:"2" },
-    { id: 3, name: "3",　operator:"3"},
-    { id: 4, name: "4",　operator: "4"},
-    { id: 5, name: "5",　operator: "5" },
-    { id: 6, name: "6",　operator:"6" },
-    { id: 7, name: "7",　operator: "7" },
-    { id: 8, name: "8",　operator: "8"},
-    { id: 9, name: "9",　operator:"9"},
-    { id: 10, name: "0", operator: "0" },
-    { id: 11, name: "÷", operator: "/" },
-    { id: 12, name: "×", operator: "*" },
-    { id: 13, name: "-", operator: "-" },
+    { id: 1, name: "C", operator: "C" },
+    { id: 18, name: "( ", operator: "(" },
+    { id: 19, name: ")", operator: ")" },
+    { id: 2, name: "÷", operator: "/" },
+    { id: 3, name: "7",　operator: "7" },
+    { id: 4, name: "8",　operator: "8"},
+    { id: 5, name: "9",　operator:"9"},
+    { id: 6, name: "×", operator: "*" },
+    { id: 7, name: "4",　operator: "4"},
+    { id: 8, name: "5",　operator: "5" },
+    { id: 9, name: "6",　operator:"6" },
+    { id: 10, name: "-", operator: "-" },
+    { id: 11, name: "1",　operator:"1" },  
+    { id: 12, name: "2",　operator:"2" },
+    { id: 13, name: "3",　operator:"3"},
     { id: 14, name: "+", operator: "+" },
-    { id: 15, name: "=", operator: "=" },
-    { id: 16, name: "C", operator: "C" }
+    { id: 15, name: "0", operator: "0" },
+    { id: 16, name: ",", operator: "."},
+    { id: 17, name: "=", operator: "=" },
+   
+    
+    
+   
+   
+   
+   
+   
+    
 ]

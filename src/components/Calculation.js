@@ -22,7 +22,7 @@ class Calculation extends React.Component {
         } 
         else {
 
-            if(this.state.result==="0"){// to show 0 for the beggining
+            if(this.state.result==="0"){// to show 0 for the begining
             this.setState({
                 result: operator
             }) 
@@ -52,9 +52,9 @@ class Calculation extends React.Component {
     render() {
 
         return (
-            <div>
-            <div>{this.state.result}</div>
-            <Buttons onClick={this.onClick} />
+            <div className="calculator">
+            <div className="display">{this.state.result}</div>
+            <Buttons  onClick={this.onClick} />
             </div>
             )
     }

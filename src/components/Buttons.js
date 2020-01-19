@@ -8,7 +8,7 @@ class Buttons extends React.Component {
         const displayNumbers = [];
         const numbers = new Map(NUMBERS.map(i => [i.id, { id: i.id, name: i.name, operator: i.operator }]))
        
-        numbers && numbers.forEach(i => { displayNumbers.push( <button key={i.id} onClick={()=>this.props.onClick(i.operator)} >{i.name}</button>) })
+        numbers && numbers.forEach(i => { displayNumbers.push( <button className={"button"+i.id} key={i.id}  onClick={()=>this.props.onClick(i.operator)} >{i.name}</button>) })
     
         
         console.log(displayNumbers)
@@ -19,7 +19,7 @@ class Buttons extends React.Component {
 
     render() {
 
-        return <div>{this.buttons()}</div>
+        return <div  className="keyboard">{this.buttons()}</div>
        
     }
 
